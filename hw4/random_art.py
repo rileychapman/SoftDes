@@ -2,7 +2,7 @@
 """
 Created on Tue Feb 11 11:34:57 2014
 
-@author: pruvolo
+@author: rileychapman and pruvolo 
 """
 
 # you do not have to use these particular modules, but they may help
@@ -102,7 +102,11 @@ def remap_interval(val, input_interval_start, input_interval_end, output_interva
 		to the output interval [output_interval_start, output_interval_end].  The mapping
 		is an affine one (i.e. output = input*c + b).
 	
-		TODO: please fill out the rest of this docstring
+		val: the value to be mapped 
+		input_interval_start: min of the input interval
+		input_interval_end: max of the input interval
+		output_interval_start: min of the output interval
+		output_interval_end: max of the 
 	"""
 	inputRange = input_interval_end - input_interval_start
 	outputRange = output_interval_end - output_interval_start
