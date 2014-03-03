@@ -29,8 +29,8 @@ def convert_to_LoL_words (L):
     Takes in a list of tweets, makes each tweet into a list of lists of words,
     and takes out common, unimportant words. 
     
-    L=List of tweets
-    return_list = list of lists that contains the words in the tweets
+    L: List of tweets
+    return_list: list of lists that contains the words in the tweets
     """
     import re    
     K=[]  # creates an empty list
@@ -43,7 +43,7 @@ def make_lowercase (L):
     """
     Takes in a list of lists and makes one list of all the words lowercase.
     L=list of list of words
-    K = list of lowercase words
+    K: list of lowercase words
     """
     
     K=[]   #generates an empty list K
@@ -58,8 +58,8 @@ def word_frequencies (L):
     Takes in a list of lowercase words and creates a dictionary indicating 
     how often that word appears in the list. 
     
-    L = list of lowercase words
-    d = dictionary mapping a word to the number of times it is found in the list
+    L: list of lowercase words
+    d: dictionary mapping a word to the number of times it is found in the list
     """
     
     d={}  #creates an empty dictionary
@@ -82,6 +82,22 @@ def word_counter (L):
     freq = word_frequencies (lowercase)  #creates a dictionary that indicates how often each word appears in the list
     return freq  #returns a dictionary mapping a word to the number of times it is found in the list. 
 
+def make_to_string (d, scalar):
+    """
+    Takes in a dictionary with keys that are words (strings) and values that 
+    are word frequencies (integers) and returns a string with the following format
+    'word: number
+    word: numner'
+    
+    d: dictionary mapping a word to the number of times it is found
+    res_string: string in the above format
+    """
+    res_string = ''     #creates an empty string
+    for element in (d):
+        x= str(scalar*d[element])  #assigns a scaled version of the value at element  to variable x
+        y=':'
+        res_string = res_string + element + y + x +','  #creates a string that concatinates itself with the key, a colon, and the scaled value and then moves to thte next line
+    return  res_string
 
 def wordle_interface(d):
 	"""
