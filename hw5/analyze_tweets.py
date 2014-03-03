@@ -132,8 +132,8 @@ def wordle_interface(s):
 	links to wordle.net and creates a wordle using a string if words and their frequencies
 	s: string of words and their frequencies (output of make_to_string)
 	"""
-	import webbrowser
-	import pyperclip
+	import webbrowser #used to open web page
+	import pyperclip #used to copy output to clpiboard
 	
 	pyperclip.copy(s)
 	print 'copied output to clipboard'
@@ -141,14 +141,9 @@ def wordle_interface(s):
 	print 'opening ' + url + ' in default browser' 
 	webbrowser.open_new(url)
 
-
-
-
-	
-
 	
 if __name__ == '__main__':
-	import data
+	import data	#our own scipt containing the output of twit.py
 
 	artist = data.mack() #change 'mack' to 'cyrus' or 'bieber' to load different data
 	tweetList = un_uni_list(artist)
