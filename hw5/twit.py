@@ -31,4 +31,7 @@ def tweets(stream):
 
 	return(resultList)
 
-
+if __name__ == '__main__':
+	data = get_data(10,'Miley Cyrus')
+	tweets = tweets(data)
+	print tweets
