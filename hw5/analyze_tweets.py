@@ -144,6 +144,7 @@ def wordle_interface(s):
 	
 if __name__ == '__main__':
 	import data	#our own scipt containing the output of twit.py
+	import twit #our scpipt that grabs tweets
 
 	artist = data.mack() #change 'mack' to 'cyrus' or 'bieber' to load different data
 	tweetList = un_uni_list(artist)

@@ -1,4 +1,4 @@
-from pattern.web import *
+
 
 def get_data(times,subject):
 	"""
@@ -8,12 +8,14 @@ def get_data(times,subject):
 	subject: the string that is searched for in tweets
 	returns: a list of all the information about all the tweets gathered
 	"""
+	from pattern.web import *
 	stream = Twitter().stream(subject) #setup twitter stream
 	for i in range(times):
 		time.sleep(2)
 		stream.update(bytes = 1024)
 		print 'in loop', i #to make sure the code is running
-	return stream #return all the data gathered
+	tweets = tweets(stream) #return all the data gathered
+	return tweets
 
 
 def tweets(stream):
@@ -33,5 +35,4 @@ def tweets(stream):
 
 if __name__ == '__main__':
 	data = get_data(10,'Miley Cyrus')
-	tweets = tweets(data)
 	print tweets
