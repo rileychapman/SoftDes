@@ -1,5 +1,3 @@
-import unicodedata #used to convert unicode strings from tweets
-
 
 
 def unicode_to_string(uni):
@@ -8,11 +6,12 @@ def unicode_to_string(uni):
 	uni: a unicode string 
 	returns: a python string
 	"""
-	
+	import unicodedata #used to convert unicode strings
 	return unicodedata.normalize('NFKD',uni).encode('ascii','ignore')
 
 def un_uni_list(l):
 	"""
+	Converts a list of unicode strings to a list of python strings 
 	l:list of unicode strings
 	returns: a list of python strings
 	"""
@@ -82,6 +81,30 @@ def word_counter (L):
     lowercase=make_lowercase (words)  #converts a list of lists of words into a list of lowercase words
     freq = word_frequencies (lowercase)  #creates a dictionary that indicates how often each word appears in the list
     return freq  #returns a dictionary mapping a word to the number of times it is found in the list. 
+
+
+def wordle_interface(d):
+	"""
+	links to wordle.net and creates a wordle using the frequencies dictionary
+	"""
+	from pattern.web import URL
+	
+	#url = URL(string='http://wordle.net/compose', method='GET', query={})
+	#print url.open(timeout=10, proxy=None).read()
+
+	#q = {"wordcounts":"here goes your text"}
+	# OR
+	q = {"wordcounts":'Riley:5,is:2,awesome:4'}
+	
+	url = URL(string="http://wordle.net/compose", query=q)
+	thing = url.open(timeout=10, proxy=None).read()
+
+	print url.parts
+
+	return thing
+
+	
+
 
 
 

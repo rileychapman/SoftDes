@@ -1,4 +1,5 @@
 def beiber():
+	"""
 	data = 	[Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000372556239/fff01d486a020959acd1d26d86e15840_normal.jpeg', u'language': u'', u'author': u'Karissakayking', u'url': u'https://twitter.com/Karissakayking/status/439277092761776128', u'text': u'RT @NCSUCrushes: "Jasmine Davis...I will be your Justin Bieber!"', u'date': u'Fri Feb 28 05:53:14 +0000 2014', u'id': u'439277092761776128'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/439225647722811392/oIjdArx0_normal.jpeg', u'language': u'', u'author': u'iSaraBieber1D', u'url': u'https://twitter.com/iSaraBieber1D/status/439277094057418752', u'text': u'Hey Justin Bieber see this hope you like it :) http://t.co/Yor7lv3rW1', u'date': u'Fri Feb 28 05:53:15 +0000 2014', u'id': u'439277094057418752'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/438887733113528321/nePtoMcR_normal.jpeg', u'language': u'', u'author': u'DiblikB', u'url': u'https://twitter.com/DiblikB/status/439277097819721728', u'text': u'@justinbieber i believe in you, continues go ahead Justin Bieber. Te amo 126', u'date': u'Fri Feb 28 05:53:16 +0000 2014', u'id': u'439277097819721728'}),
@@ -475,6 +476,8 @@ def beiber():
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/432634873476423680/Yw9Jz7qH_normal.png', u'language': u'', u'author': u'2011biebsus', u'url': u'https://twitter.com/2011biebsus/status/439278002900189184', u'text': u'RT @BieberMemoryTL: Bieber memory:\nJustin: my grandpa is so proud of me\nAwww look he is crying.\nHe is always crying http://t.co/IAc7Qo3Jh0', u'date': u'Fri Feb 28 05:56:51 +0000 2014', u'id': u'439278002900189184'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/434652075369066497/boAnk-Yt_normal.jpeg', u'language': u'', u'author': u'InBiebzDream', u'url': u'https://twitter.com/InBiebzDream/status/439278006477930496', u'text': u'RT @BieberMemoryTL: Bieber memory:\nHis long battle with glass doors http://t.co/1NhvJGt8X2', u'date': u'Fri Feb 28 05:56:52 +0000 2014', u'id': u'439278006477930496'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/432212362821517312/1sJhvBUX_normal.jpeg', u'language': u'', u'author': u'beachbeautyy', u'url': u'https://twitter.com/beachbeautyy/status/439278008143060992', u'text': u'RT @BieberMemoryTL: Bieber memory:\nFlirty Justin moments http://t.co/xFNhtRLyJ8', u'date': u'Fri Feb 28 05:56:53 +0000 2014', u'id': u'439278008143060992'})]
+	"""
+
 
 	text = [u'RT @NCSUCrushes: "Jasmine Davis...I will be your Justin Bieber!"',
 	u'Hey Justin Bieber see this hope you like it :) http://t.co/Yor7lv3rW1',
@@ -810,7 +813,7 @@ def beiber():
 	u"@exosarang I feel offended bc it's justin bieber of all people..",
 	u'bieber is creepin',
 	u'RT @BieberMemoryTL: Bieber memory:\nPrankster on the loose http://t.co/b36wrHvOIZ',
-	uU got it bad ALWAYS comes on my Justin bieber radio on pandora and it reminds me when Justin sang to usher for the first time!!',
+	u'U got it bad ALWAYS comes on my Justin bieber radio on pandora and it reminds me when Justin sang to usher for the first time!!',
 	u'RT @BieberMemoryTL: Bieber memory:\nForever the best ollgs http://t.co/vtiSitnHZm',
 	u'RT @avonshero_: JUSTIN BIEBER IS STILL 19 AND URE STILL A BELIEBER http://t.co/3E0F7p1ANH',
 	u'Np: Justin Bieber - All That Matters \U0001f493',
@@ -952,10 +955,11 @@ def beiber():
 	u'RT @BieberMemoryTL: Bieber memory:\nJustin: my grandpa is so proud of me\nAwww look he is crying.\nHe is always crying http://t.co/IAc7Qo3Jh0',
 	u'RT @BieberMemoryTL: Bieber memory:\nHis long battle with glass doors http://t.co/1NhvJGt8X2',
 	u'RT @BieberMemoryTL: Bieber memory:\nFlirty Justin moments http://t.co/xFNhtRLyJ8']
-return text
+	
+	return text
 
 def cyrus():
-
+	"""
 	data = 	[Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000555638879/3cf44193d31fcc92ba57d37666c39a34_normal.jpeg', u'language': u'', u'author': u'Lord_Loredo', u'url': u'https://twitter.com/Lord_Loredo/status/439839062304641024', u'text': u'RT @Dory: Miley cyrus spotted at a safari park http://t.co/5I2GRtFkMp', u'date': u'Sat Mar 01 19:06:18 +0000 2014', u'id': u'439839062304641024'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/424332955083751424/xKTva2nn_normal.jpeg', u'language': u'', u'author': u'pamonheirals', u'url': u'https://twitter.com/pamonheirals/status/439839070223863808', u'text': u'RT @Mosquei: \u201cD\xf3i pra caralho, mas voc\xea finge que n\xe3o v\xea, que n\xe3o se importa.\u201d \n \u2014 Miley Cyrus.', u'date': u'Sat Mar 01 19:06:20 +0000 2014', u'id': u'439839070223863808'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/438917600710766592/vP1cLnsB_normal.jpeg', u'language': u'', u'author': u'_NickyLarson', u'url': u'https://twitter.com/_NickyLarson/status/439839073633841153', u'text': u'Miley Cyrus elle est poss\xe8de par le d\xe9mon', u'date': u'Sat Mar 01 19:06:21 +0000 2014', u'id': u'439839073633841153'}),
@@ -1456,6 +1460,8 @@ def cyrus():
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/421009384295387136/gmUDaa4R_normal.jpeg', u'language': u'', u'author': u'NickJDM', u'url': u'https://twitter.com/NickJDM/status/439840585357463552', u'text': u'RT @Mosquei: \u201cD\xf3i pra caralho, mas voc\xea finge que n\xe3o v\xea, que n\xe3o se importa.\u201d \n \u2014 Miley Cyrus.', u'date': u'Sat Mar 01 19:12:22 +0000 2014', u'id': u'439840585357463552'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/437492639601274880/ShlVqhtI_normal.jpeg', u'language': u'', u'author': u'yungpizzaroll', u'url': u'https://twitter.com/yungpizzaroll/status/439840587022626816', u'text': u'RT @YungAlfalfa: MY NIGGA FUCKED MILEY CYRUS http://t.co/LRDmpoiQpM', u'date': u'Sat Mar 01 19:12:22 +0000 2014', u'id': u'439840587022626816'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/413357534863708161/QZPtsgtw_normal.jpeg', u'language': u'', u'author': u'billymark_97', u'url': u'https://twitter.com/billymark_97/status/439840590260617217', u'text': u'RT @chloeonvine: miley cyrus recently spotted at a safari park http://t.co/pD6FYD2vZc', u'date': u'Sat Mar 01 19:12:23 +0000 2014', u'id': u'439840590260617217'})]
+	"""
+
 
 	text = [u'RT @Dory: Miley cyrus spotted at a safari park http://t.co/5I2GRtFkMp',
 	u'RT @Mosquei: \u201cD\xf3i pra caralho, mas voc\xea finge que n\xe3o v\xea, que n\xe3o se importa.\u201d \n \u2014 Miley Cyrus.',
@@ -1635,7 +1641,7 @@ def cyrus():
 	u'RT @YungAlfalfa: MY NIGGA FUCKED MILEY CYRUS http://t.co/LRDmpoiQpM',
 	u'RT @calidonut: "3/5 members of one direction or miley cyrus super fans"\n\ni jUST SCREAMED http://t.co/NWHINjIXtA',
 	u"RT @WindsoorEvans: 'Miley Cyrus es fea' Vaya por dios. http://t.co/dWCCcEBmpa",
-	u	U can't be dressing like Nicki Minaj, behaving like miley cyrus &amp; then expect to end up like Michelle Obama.HOW",
+	u'U can\'t be dressing like Nicki Minaj, behaving like miley cyrus &amp; then expect to end up like Michelle Obama.HOW',
 	u'RT @iHateSJD: Miley Cyrus on the Bangerz Tour. \n- http://t.co/kbL1K11cvG',
 	u'RT @BabyAnimalPics: Miley Cyrus recently spotted at a safari park http://t.co/sohkPCKzJh',
 	u'RT @eRaRenos: RT for Maralyn Monroe, Fav for Miley Cyrus! @KyleCazuaL http://t.co/V5ifNVOkNw',
@@ -1957,9 +1963,11 @@ def cyrus():
 	u'RT @Mosquei: \u201cD\xf3i pra caralho, mas voc\xea finge que n\xe3o v\xea, que n\xe3o se importa.\u201d \n \u2014 Miley Cyrus.',
 	u'RT @YungAlfalfa: MY NIGGA FUCKED MILEY CYRUS http://t.co/LRDmpoiQpM',
 	u'RT @chloeonvine: miley cyrus recently spotted at a safari park http://t.co/pD6FYD2vZc']
- return text
+
+	return text
 
 def mack():
+	"""
 	data = [Result({u'profile': u'http://pbs.twimg.com/profile_images/431638004134723584/vjis5Pm__normal.jpeg', u'language': u'', u'author': u'AfiSafitri19', u'url': u'https://twitter.com/AfiSafitri19/status/439980504138280960', u'text': u"RT @creativedisc: Maroon 5, One Direction, OneRepublic, Macklemore &amp; Ryan Lewis bersaing di Fave Music Group Kids' Choice Awards : http://t\u2026", u'date': u'Sun Mar 02 04:28:21 +0000 2014', u'id': u'439980504138280960'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000855176336/f76b284a983afbc8f8402e94d15546ac_normal.jpeg', u'language': u'', u'author': u'sam97631313', u'url': u'https://twitter.com/sam97631313/status/439980526602952704', u'text': u'RT @YouChoices: Kendrick or Macklemore? http://t.co/ItIwAAvbXG', u'date': u'Sun Mar 02 04:28:26 +0000 2014', u'id': u'439980526602952704'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/439940834637914113/jAtDkT3Q_normal.jpeg', u'language': u'', u'author': u'_kevinrusso', u'url': u'https://twitter.com/_kevinrusso/status/439980566315016192', u'text': u'RT @IamEvilTebow: Macklemore is taking in some basketball tonight with his boyfriend http://t.co/KZ4EQFIZ6s', u'date': u'Sun Mar 02 04:28:36 +0000 2014', u'id': u'439980566315016192'}),
@@ -1986,7 +1994,39 @@ def mack():
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/435388876761206785/0n29DVdC_normal.jpeg', u'language': u'', u'author': u'mrscounterpoint', u'url': u'https://twitter.com/mrscounterpoint/status/439981630673793025', u'text': u'Macklemore &amp; Ryan Lewis - Wings\u3000\u5148\u65e5\u306e\u30b0\u30e9\u30df\u30fc\u30674\u51a0\u3002\u97f3\u306f\u30d2\u30c3\u30d7\u30db\u30c3\u30d7\u30fb\u30dd\u30c3\u30d7\u3063\u3066\u611f\u3058\u306e\u4e2d\u5eb8\u3055\u3060\u3051\u3069\u3001\u6b4c\u8a5e\u306f\u30ea\u30d9\u30e9\u30eb\u7cfb\u3067\u9762\u767d\u3044\u3002\u30ca\u30a4\u30ad\u30fb\u30d6\u30fc\u30e0\u3092\u6279\u5224\u7684\u306b\u6349\u3048\u305f\u3053\u306e\u66f2\u306f\u3001\u9670\u308a\u306e\u3042\u308b\u51dd\u3063\u305f\u30a2\u30ec\u30f3\u30b8\u3082\u826f\u3044\u306d\u3002 http://t.co/cGczIabWK6', u'date': u'Sun Mar 02 04:32:49 +0000 2014', u'id': u'439981630673793025'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/412135148046401536/rCA34nMK_normal.jpeg', u'language': u'', u'author': u'ismeeaa', u'url': u'https://twitter.com/ismeeaa/status/439981667390738432', u'text': u'RT @Grape_Rape: \u201c@LlLATHEBASEDGOD: A pic of Wale, Tyga, Soulja boy, Macklemore &amp; Ryan Lewis http://t.co/RGLWEOOrND\u201d', u'date': u'Sun Mar 02 04:32:58 +0000 2014', u'id': u'439981667390738432'}),
 	Result({u'profile': u'http://pbs.twimg.com/profile_images/438113684426985472/dZ1sow58_normal.png', u'language': u'', u'author': u'vavfree', u'url': u'https://twitter.com/vavfree/status/439981744205201408', u'text': u'@gravinfree call Macklemore', u'date': u'Sun Mar 02 04:33:16 +0000 2014', u'id': u'439981744205201408'}),
-	Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000554564215/d6567b3dda39cb23790b5786ea84a186_normal.jpeg', u'language': u'', u'author': u'Sherryl_492x_', u'url': u'https://twitter.com/Sherryl_492x_/status/439981764808015872', u'text': u'RT @TheMusicPulse: Kendrick Lamar Responds to Macklemore\u2019s Grammy Text, Teases New Albums http://t.co/tcRhhyyKUU', u'date': u'Sun Mar 02 04:33:21 +0000 2014', u'id': u'439981764808015872'})]
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000554564215/d6567b3dda39cb23790b5786ea84a186_normal.jpeg', u'language': u'', u'author': u'Sherryl_492x_', u'url': u'https://twitter.com/Sherryl_492x_/status/439981764808015872', u'text': u'RT @TheMusicPulse: Kendrick Lamar Responds to Macklemore\u2019s Grammy Text, Teases New Albums http://t.co/tcRhhyyKUU', u'date': u'Sun Mar 02 04:33:21 +0000 2014', u'id': u'439981764808015872'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/438533974504132608/8CfzfPFr_normal.jpeg', u'language': u'', u'author': u'kingrvlphy', u'url': u'https://twitter.com/kingrvlphy/status/439986420845785088', u'text': u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them', u'date': u'Sun Mar 02 04:51:51 +0000 2014', u'id': u'439986420845785088'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/438895071165812737/5SxRaa-r_normal.jpeg', u'language': u'', u'author': u'imquinn', u'url': u'https://twitter.com/imquinn/status/439986470376312832', u'text': u'@dominiquetiu I want to see Macklemore and Ryan Lewis live at SM Moa on 3/16/14. #macklemoreryanlewisph', u'date': u'Sun Mar 02 04:52:03 +0000 2014', u'id': u'439986470376312832'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439171701759168512/3JLGhRQP_normal.jpeg', u'language': u'', u'author': u'NazarenoLB', u'url': u'https://twitter.com/NazarenoLB/status/439986472368615424', u'text': u'RT @chyntuJB: MACKLEMORE &amp; RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO): http://t.co/p0GgKtk3zK v\xeda @youtube\namar este video!', u'date': u'Sun Mar 02 04:52:04 +0000 2014', u'id': u'439986472368615424'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/438136762771050496/nfI1Ko6__normal.png', u'language': u'', u'author': u'Bradmaster240', u'url': u'https://twitter.com/Bradmaster240/status/439986533282504704', u'text': u'macklemore http://t.co/ejx8SwJvAT', u'date': u'Sun Mar 02 04:52:18 +0000 2014', u'id': u'439986533282504704'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/423971614993031168/fu2XnN7J_normal.jpeg', u'language': u'', u'author': u'Ody_CruPe', u'url': u'https://twitter.com/Ody_CruPe/status/439986554660868096', u'text': u'Sin importar como seamos, el amor es el mismo para todos! @macklemore &amp; @RyanLewis - SAME LOVE feat. @marylambertsing http://t.co/sLG0qhV4W1', u'date': u'Sun Mar 02 04:52:23 +0000 2014', u'id': u'439986554660868096'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/432130911132332032/DsjJYQs7_normal.jpeg', u'language': u'', u'author': u'icha_chandra', u'url': u'https://twitter.com/icha_chandra/status/439986558826213376', u'text': u'Siapa selebriti yang ingin kamu temui? \u2014 one direction, taylor swift, barbara palvin, ariana grande, macklemore ... http://t.co/tS6ujcZJ8E', u'date': u'Sun Mar 02 04:52:24 +0000 2014', u'id': u'439986558826213376'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/434897819233562625/BMoEqZjy_normal.jpeg', u'language': u'', u'author': u'ChaannNicole', u'url': u'https://twitter.com/ChaannNicole/status/439986580590051328', u'text': u'The Macklemore inspired haircut is really in this season #style', u'date': u'Sun Mar 02 04:52:30 +0000 2014', u'id': u'439986580590051328'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/417609792060796928/VX0ENCPj_normal.jpeg', u'language': u'', u'author': u'HustlaDaddyNoa', u'url': u'https://twitter.com/HustlaDaddyNoa/status/439986625175515137', u'text': u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them', u'date': u'Sun Mar 02 04:52:40 +0000 2014', u'id': u'439986625175515137'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/436621114240806912/8if2i7wf_normal.png', u'language': u'', u'author': u'EnzoAgustn', u'url': u'https://twitter.com/EnzoAgustn/status/439986640472125440', u'text': u'que grande es macklemore, dios', u'date': u'Sun Mar 02 04:52:44 +0000 2014', u'id': u'439986640472125440'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000826763728/e960f854df069dbdcc4850ca2d550651_normal.jpeg', u'language': u'', u'author': u'OhSayCanYouSeay', u'url': u'https://twitter.com/OhSayCanYouSeay/status/439986684625567744', u'text': u"\u201c@macklemore: 911...bush knocked down the towers\u201d imagine what would've happened if he tweeted this while he was famous", u'date': u'Sun Mar 02 04:52:54 +0000 2014', u'id': u'439986684625567744'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/431012114996527104/HiD9oeat_normal.jpeg', u'language': u'', u'author': u'alyakhaa', u'url': u'https://twitter.com/alyakhaa/status/439986707803279360', u'text': u'Thrift Shop (feat. Wanz) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/KP0Hg8Bm7Q', u'date': u'Sun Mar 02 04:53:00 +0000 2014', u'id': u'439986707803279360'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/438940021987749888/ZzJoTPqU_normal.jpeg', u'language': u'', u'author': u'ThadOfCT', u'url': u'https://twitter.com/ThadOfCT/status/439986729676963841', u'text': u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them', u'date': u'Sun Mar 02 04:53:05 +0000 2014', u'id': u'439986729676963841'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/414528750546866176/jBCu6AxX_normal.jpeg', u'language': u'', u'author': u'_moshashes', u'url': u'https://twitter.com/_moshashes/status/439986763386216448', u'text': u'wait a minute. i have somewhere to apply "macklemore didnt die in a thrift shop for this"', u'date': u'Sun Mar 02 04:53:13 +0000 2014', u'id': u'439986763386216448'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000658417442/e94ec47889ec51e1abcc7cd37824ebb0_normal.jpeg', u'language': u'', u'author': u'GlRibeiroMoraes', u'url': u'https://twitter.com/GlRibeiroMoraes/status/439986830658637824', u'text': u'THRIFT SHOP (OFFICIAL VIDEO): http://t.co/T9Z3qQDaPM via @youtube \n\nMacklemore juntamente com o T.I ; Eminem &amp; Mc Hush S\xe3o os Meliores', u'date': u'Sun Mar 02 04:53:29 +0000 2014', u'id': u'439986830658637824'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439434001518841856/Owbs5qFt_normal.jpeg', u'language': u'', u'author': u'debysella', u'url': u'https://twitter.com/debysella/status/439986850061484032', u'text': u'Same Love (feat. Mary Lambert) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/knoBPQcf0b', u'date': u'Sun Mar 02 04:53:34 +0000 2014', u'id': u'439986850061484032'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/1721310535/tugwellavy_normal.jpg', u'language': u'', u'author': u'Matt_Tugwell', u'url': u'https://twitter.com/Matt_Tugwell/status/439986912866996224', u'text': u"I added a video to a @YouTube playlist http://t.co/uHUwXPISHj Macklemore &amp; Ryan Lewis - Can't Hold Us", u'date': u'Sun Mar 02 04:53:49 +0000 2014', u'id': u'439986912866996224'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439841832294699009/dt8bIpfB_normal.jpeg', u'language': u'', u'author': u'HolyLanaDelRey', u'url': u'https://twitter.com/HolyLanaDelRey/status/439986915665014785', u'text': u'jesse j and macklemore http://t.co/MAVzmBbTLO', u'date': u'Sun Mar 02 04:53:49 +0000 2014', u'id': u'439986915665014785'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/437001757600669696/EYsJ9UR7_normal.jpeg', u'language': u'', u'author': u'RarrRevvvv', u'url': u'https://twitter.com/RarrRevvvv/status/439987012007776256', u'text': u'Thirft Shop #Macklemore', u'date': u'Sun Mar 02 04:54:12 +0000 2014', u'id': u'439987012007776256'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439843906901921792/iv95Nroz_normal.jpeg', u'language': u'', u'author': u'Niallfan831', u'url': u'https://twitter.com/Niallfan831/status/439987067213201408', u'text': u'RT @HolyLanaDelRey: jesse j and macklemore http://t.co/MAVzmBbTLO', u'date': u'Sun Mar 02 04:54:26 +0000 2014', u'id': u'439987067213201408'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/429751111268831234/fo8dWg_-_normal.jpeg', u'language': u'', u'author': u'DevBot98', u'url': u'https://twitter.com/DevBot98/status/439987085294829568', u'text': u'@ilovefood_14 your dad is macklemore', u'date': u'Sun Mar 02 04:54:30 +0000 2014', u'id': u'439987085294829568'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/378800000494381232/d5d3d9bb817c0b06126c3be58a45874e_normal.jpeg', u'language': u'', u'author': u'DeiondreBlair', u'url': u'https://twitter.com/DeiondreBlair/status/439987111274364930', u'text': u'Kendrick Lamar Addresses Macklemore Text, Will Reportedly Release His New Album In September http://t.co/zaILd6VB4o', u'date': u'Sun Mar 02 04:54:36 +0000 2014', u'id': u'439987111274364930'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/438862873750564865/-oXbRwHl_normal.png', u'language': u'', u'author': u'KennethYoungIII', u'url': u'https://twitter.com/KennethYoungIII/status/439987151053148160', u'text': u"RT @Matt_Tugwell: I added a video to a @YouTube playlist http://t.co/uHUwXPISHj Macklemore &amp; Ryan Lewis - Can't Hold Us", u'date': u'Sun Mar 02 04:54:46 +0000 2014', u'id': u'439987151053148160'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/435210452868800512/MHhpdO3F_normal.jpeg', u'language': u'', u'author': u'_Ocheeeee', u'url': u'https://twitter.com/_Ocheeeee/status/439987258179846146', u'text': u'RT @_JuanPabloSoyYo: Same Love - Macklemore.', u'date': u'Sun Mar 02 04:55:11 +0000 2014', u'id': u'439987258179846146'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/437211618565693441/B2OmKZhS_normal.jpeg', u'language': u'', u'author': u'drxgzilla', u'url': u'https://twitter.com/drxgzilla/status/439987269168943104', u'text': u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them', u'date': u'Sun Mar 02 04:55:14 +0000 2014', u'id': u'439987269168943104'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/437725920623726592/wDWmUJSQ_normal.jpeg', u'language': u'', u'author': u'Casinoodle', u'url': u'https://twitter.com/Casinoodle/status/439987291545554944', u'text': u'I\'ve been studying Banksy &amp; listening to a lot of Macklemore lately &amp; basically I\'m just in a really big "stick it to the man" kinda mood.', u'date': u'Sun Mar 02 04:55:19 +0000 2014', u'id': u'439987291545554944'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439962538956955648/yqqrbwhM_normal.jpeg', u'language': u'', u'author': u'TheBuddahSmoker', u'url': u'https://twitter.com/TheBuddahSmoker/status/439987333111115777', u'text': u'RT @icekoldfire: "@TheBuddahSmoker: So y\'all legit like Macklemore ?" nope', u'date': u'Sun Mar 02 04:55:29 +0000 2014', u'id': u'439987333111115777'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439240935961280512/YMyg6Byt_normal.jpeg', u'language': u'', u'author': u'iShotBiggie_', u'url': u'https://twitter.com/iShotBiggie_/status/439987357031608320', u'text': u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them', u'date': u'Sun Mar 02 04:55:35 +0000 2014', u'id': u'439987357031608320'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/433170560202194944/DGCo42QO_normal.jpeg', u'language': u'', u'author': u'aaurellius', u'url': u'https://twitter.com/aaurellius/status/439987376891256832', u'text': u'I don\u2019t blame her, my mind is gone \u266b Thin Line (feat. Buffalo Madonna) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/6plxKwAyLw', u'date': u'Sun Mar 02 04:55:39 +0000 2014', u'id': u'439987376891256832'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439530328299171840/pZGhyVz6_normal.jpeg', u'language': u'', u'author': u'aintaIIbads', u'url': u'https://twitter.com/aintaIIbads/status/439987387821592576', u'text': u'RT @YouChoices: Kendrick or Macklemore? http://t.co/ItIwAAvbXG', u'date': u'Sun Mar 02 04:55:42 +0000 2014', u'id': u'439987387821592576'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439947978963292161/-MRus61v_normal.jpeg', u'language': u'', u'author': u'DVfUKENMULVNHXE', u'url': u'https://twitter.com/DVfUKENMULVNHXE/status/439987485053964290', u'text': u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them', u'date': u'Sun Mar 02 04:56:05 +0000 2014', u'id': u'439987485053964290'}),
+	Result({u'profile': u'http://pbs.twimg.com/profile_images/439398238387331072/lK5Y-x_y_normal.jpeg', u'language': u'', u'author': u'ranggaRTN', u'url': u'https://twitter.com/ranggaRTN/status/439987495501983744', u'text': u'White Walls (feat. ScHoolboy Q &amp; Hollis) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/RLnTqH2iv6', u'date': u'Sun Mar 02 04:56:08 +0000 2014', u'id': u'439987495501983744'})]
+	"""
 
 	text = [u"RT @creativedisc: Maroon 5, One Direction, OneRepublic, Macklemore &amp; Ryan Lewis bersaing di Fave Music Group Kids' Choice Awards : http://t\u2026",
 	u'RT @YouChoices: Kendrick or Macklemore? http://t.co/ItIwAAvbXG',
@@ -2014,7 +2054,38 @@ def mack():
 	u'Macklemore &amp; Ryan Lewis - Wings\u3000\u5148\u65e5\u306e\u30b0\u30e9\u30df\u30fc\u30674\u51a0\u3002\u97f3\u306f\u30d2\u30c3\u30d7\u30db\u30c3\u30d7\u30fb\u30dd\u30c3\u30d7\u3063\u3066\u611f\u3058\u306e\u4e2d\u5eb8\u3055\u3060\u3051\u3069\u3001\u6b4c\u8a5e\u306f\u30ea\u30d9\u30e9\u30eb\u7cfb\u3067\u9762\u767d\u3044\u3002\u30ca\u30a4\u30ad\u30fb\u30d6\u30fc\u30e0\u3092\u6279\u5224\u7684\u306b\u6349\u3048\u305f\u3053\u306e\u66f2\u306f\u3001\u9670\u308a\u306e\u3042\u308b\u51dd\u3063\u305f\u30a2\u30ec\u30f3\u30b8\u3082\u826f\u3044\u306d\u3002 http://t.co/cGczIabWK6',
 	u'RT @Grape_Rape: \u201c@LlLATHEBASEDGOD: A pic of Wale, Tyga, Soulja boy, Macklemore &amp; Ryan Lewis http://t.co/RGLWEOOrND\u201d',
 	u'@gravinfree call Macklemore',
-	u'RT @TheMusicPulse: Kendrick Lamar Responds to Macklemore\u2019s Grammy Text, Teases New Albums http://t.co/tcRhhyyKUU']
+	u'RT @TheMusicPulse: Kendrick Lamar Responds to Macklemore\u2019s Grammy Text, Teases New Albums http://t.co/tcRhhyyKUU',
+	u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them',
+	u'@dominiquetiu I want to see Macklemore and Ryan Lewis live at SM Moa on 3/16/14. #macklemoreryanlewisph',
+	u'RT @chyntuJB: MACKLEMORE &amp; RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO): http://t.co/p0GgKtk3zK v\xeda @youtube\namar este video!',
+	u'macklemore http://t.co/ejx8SwJvAT',
+	u'Sin importar como seamos, el amor es el mismo para todos! @macklemore &amp; @RyanLewis - SAME LOVE feat. @marylambertsing http://t.co/sLG0qhV4W1',
+	u'Siapa selebriti yang ingin kamu temui? \u2014 one direction, taylor swift, barbara palvin, ariana grande, macklemore ... http://t.co/tS6ujcZJ8E',
+	u'The Macklemore inspired haircut is really in this season #style',
+	u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them',
+	u'que grande es macklemore, dios',
+	u"\u201c@macklemore: 911...bush knocked down the towers\u201d imagine what would've happened if he tweeted this while he was famous",
+	u'Thrift Shop (feat. Wanz) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/KP0Hg8Bm7Q',
+	u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them',
+	u'wait a minute. i have somewhere to apply "macklemore didnt die in a thrift shop for this"',
+	u'THRIFT SHOP (OFFICIAL VIDEO): http://t.co/T9Z3qQDaPM via @youtube \n\nMacklemore juntamente com o T.I ; Eminem &amp; Mc Hush S\xe3o os Meliores',
+	u'Same Love (feat. Mary Lambert) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/knoBPQcf0b',
+	u"I added a video to a @YouTube playlist http://t.co/uHUwXPISHj Macklemore &amp; Ryan Lewis - Can't Hold Us",
+	u'jesse j and macklemore http://t.co/MAVzmBbTLO',
+	u'Thirft Shop #Macklemore',
+	u'RT @HolyLanaDelRey: jesse j and macklemore http://t.co/MAVzmBbTLO',
+	u'@ilovefood_14 your dad is macklemore',
+	u'Kendrick Lamar Addresses Macklemore Text, Will Reportedly Release His New Album In September http://t.co/zaILd6VB4o',
+	u"RT @Matt_Tugwell: I added a video to a @YouTube playlist http://t.co/uHUwXPISHj Macklemore &amp; Ryan Lewis - Can't Hold Us",
+	u'RT @_JuanPabloSoyYo: Same Love - Macklemore.',
+	u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them',
+	u'I\'ve been studying Banksy &amp; listening to a lot of Macklemore lately &amp; basically I\'m just in a really big "stick it to the man" kinda mood.',
+	u'RT @icekoldfire: "@TheBuddahSmoker: So y\'all legit like Macklemore ?" nope',
+	u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them',
+	u'I don\u2019t blame her, my mind is gone \u266b Thin Line (feat. Buffalo Madonna) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/6plxKwAyLw',
+	u'RT @YouChoices: Kendrick or Macklemore? http://t.co/ItIwAAvbXG',
+	u'RT @jeffgallardo9: Macklemore rap for those niggas that blow bubbles and run through them',
+	u'White Walls (feat. ScHoolboy Q &amp; Hollis) by Macklemore &amp; Ryan Lewis \u2014 https://t.co/RLnTqH2iv6']
 
 	return text
 
