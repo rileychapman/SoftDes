@@ -1,8 +1,8 @@
 from pattern.web import *
 
-def get_data(minutes,subject):
+def get_data(seconds,subject):
 	stream = Twitter().stream(subject)
-	for i in range(minutes):
+	for i in range(seconds):
 		time.sleep(2)
 		stream.update(bytes = 1024)
 		print 'in loop', i
@@ -10,6 +10,7 @@ def get_data(minutes,subject):
 
 
 def tweets(stream):
+
 	resultList = []
 	for i in range(len(stream)):
 		#print stream[i].text
@@ -17,5 +18,4 @@ def tweets(stream):
 			resultList.append(stream[i].text)
 
 	return(resultList)
-
-
+ 
