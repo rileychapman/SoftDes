@@ -27,7 +27,9 @@ def coding_strand_to_AA(dna):
     """
     AA = '' #empty string for found amino acids
     i = 0;
-    while i < len(dna):
+    while i < len(dna): #this could be a for loop in range(0, len(dna), 3) where the 3rd argument is the iterator
+                        # and it would have the same effect. This is mostly a matter of preference, but be aware
+                        # that you are able to iterate by a number that is not 1 within for loops.
         codon = dna[i:i+3] #grab a codon from the DNA seqence
         for a,refferenceCodon in enumerate(codons):
             for substring in refferenceCodon:
@@ -71,6 +73,7 @@ def get_reverse_complement(dna):
         elif base == 'G':
             compliment += 'C'
     reverseCompliment = compliment[::-1] #reverse the compliment 
+        #Good use of the iterator in substrings
     return reverseCompliment
 
 
@@ -102,11 +105,15 @@ def rest_of_ORF(dna):
     while i < len(dna):
         codon = dna[i:i+3]
         if codon == 'TAG' or codon == 'TAA' or codon == 'TGA': #check for stop sequence 
+                                                                #for future reference, you can simplify statements like this
+                                                                # with "if codon in ['TAG','TAA','TGA']:"
             break
         else:
             resultString += codon #otherwise, add the codon to the list and continue 
         i += 3
     return resultString
+
+    #Nicely compact function!
 
 def rest_of_ORF_unit_tests():
     """ Unit tests for the rest_of_ORF function """
@@ -186,6 +193,11 @@ def find_all_ORFs(dna):
             resultList.append(strand)
     return resultList
 
+    #This looks great. Good use of range, substring, and the "for elem in iterable:" syntax
+    # One note is that you don't need to iterate through strands to append it to results list:
+    # append works on an entire list, so resultList.append(strands) would be the same as your
+    # for-loop functionally
+
 
 def find_all_ORFs_unit_tests():
     """ Unit tests for the find_all_ORFs function """
@@ -213,6 +225,12 @@ def find_all_ORFs_both_strands(dna):
         resultList.append(strand)
     return resultList
 
+    #Since your reverse complement and find all ORFs are returning lists, you can just
+    # concatinate the results with the + operator or .append(). So this entire function can be rewritten
+    # as the one line "return find_all_ORFs(dna) + find_all_ORFs(get_reverse_complement(dna))".
+    # As above your method here works fine, but the for loops are unnecessary. Append also works on a whole
+    # list in the same way, so iterrating through each element is unnecessary.
+
 def find_all_ORFs_both_strands_unit_tests():
     """ Unit tests for the find_all_ORFs_both_strands function """
 
@@ -234,6 +252,10 @@ def longest_ORF(dna):
             currentLongest = frame
             #print "new longest! ", currentLongest
     return currentLongest
+
+    # This works just fine, but consider using the max() function to save space. You can use it on a
+    # list to return the longest element in that list withouy having to iterate through frames. Again, this
+    # function could be rewritten to one line as something like  "return max(find_all_ORFs_both_strands(dna),key=len)"
 
 def longest_ORF_unit_tests():
     """ Unit tests for the longest_ORF function """
@@ -275,6 +297,9 @@ def longest_ORF_noncoding(dna, num_trials):
             currentLongest = result
     #print "the longest string is ", currentLongest 
     return len(currentLongest)
+
+    #Once again you could use a syntax here with len(max()) to save a few lines towards the end
+    #here. 
 
 
 def gene_finder(dna, threshold):
