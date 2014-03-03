@@ -132,33 +132,14 @@ def wordle_interface(s):
 	links to wordle.net and creates a wordle using a string if words and their frequencies
 	s: string of words and their frequencies (output of make_to_string)
 	"""
-	#from pattern.web import URL
-	import requests
 	import webbrowser
 	import pyperclip
 	
-	#url = URL(string='http://wordle.net/compose', method='GET', query={})
-	#print url.open(timeout=10, proxy=None).read()
-
-	#q = {"wordcounts":"here goes your text"}
-	# OR
-	q = {"wordcounts":'Riley:5,is:2,awesome:4'}
-	strq = 'wordcounts:Riley:5,is:2,awesome:4'
-	
-	#url = URL(string="http://wordle.net/compose", query=q)
-	#thing = url.open(timeout=10, proxy=None).read()
-	#print url.parts
-
-	r = requests.post("http://wordle.net/compose", data=q)
-	#print r.text
-	#print r.*
-	#print r.content
-	print r.url 
-
-	#url = 'http://wordle.net/compose?' + strq
-	#print url
-	webbrowser.open_new(r.url)
 	pyperclip.copy(s)
+	print 'copied output to clipboard'
+	url = 'http://wordle.net/compose'
+	print 'opening ' + url + ' in default browser' 
+	webbrowser.open_new(url)
 
 
 
@@ -168,7 +149,8 @@ def wordle_interface(s):
 	
 if __name__ == '__main__':
 	import data
-	artist = data.mack()
+
+	artist = data.mack() #change 'mack' to 'cyrus' or 'bieber' to load different data
 	tweetList = un_uni_list(artist)
 	#print tweetList
 	wordFrequencies = word_counter(tweetList)
