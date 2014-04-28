@@ -7,6 +7,9 @@ def unicode_to_string(uni):
 	returns: a python string
 	"""
 	import unicodedata #used to convert unicode strings
+	# Imports are (more or less) global: therefore it rarely makes sense to import
+	# a module into just one function. Rather, it generally makes sense to assume by default
+	# that imports should occur once: before any functions are called.
 	return unicodedata.normalize('NFKD',uni).encode('ascii','ignore')
 
 def un_uni_list(l):
